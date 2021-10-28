@@ -1,0 +1,5 @@
+.tabsClass ul > li > a {
+    background-color: rgb(177, 73, 73);
+    color: white;
+    font-size: larger;
+}

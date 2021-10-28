@@ -1,0 +1,7 @@
+.sideBar-tab{
+    position: absolute;
+    left: var(--sideBar);
+    top: var(--navbar);
+    width: 82%;
+}
+

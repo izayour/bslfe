@@ -1,0 +1,71 @@
+.myContainer{
+  font-family: Roboto;
+  margin: 40px;
+  padding: 24px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  background-color: white;
+}
+
+.saveButton2{
+  font-family: Roboto;
+  color: white;
+  position: absolute;
+  right: 0px;
+  background-color: #8AC240;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: -6px;
+  width: 90px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cancelButton2{
+  font-family: Roboto;
+  color: #1E75B7;
+  position: absolute;
+  right: 100px;
+  background-color: white;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: -6px;
+  width: 90px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid #1E75B7}
+
+    .grid{
+      font-family: Roboto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+.sectionTitle{
+  color: #1E75B7;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subTitle{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.textInput{
+  border-radius: 3px;
+}
+
+.apiReceivedLabels{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,33 @@
+import React from "react";
+
+const LocationDropdown = (props) => {
+
+    const { data, onChange, defaultRole } = props;
+
+    console.log(defaultRole)
+
+    return (
+        <select style={{
+            width: "200px",
+            height: "30px",
+            backgroundColor: "white",
+            border: "1px solid black",
+            borderRadius: "3px"
+        }}
+            onChange={onChange}
+        >
+            {/* <option style={{ backgroundColor: "white" }} disabled selected>Select</option> */}
+            {
+                typeof data !== "object" ?
+                    []
+                    :
+                    Object.keys(data).map(id => {
+                        return <option key={id} style={{ backgroundColor: "white" }} value={data[id].locationId}
+                            selected={data[id].locationName === defaultRole}>{data[id].locationName}</option>
+                    })
+            }
+        </select>
+    );
+}
+
+export default LocationDropdown;

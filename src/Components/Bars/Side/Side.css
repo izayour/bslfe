@@ -1,0 +1,43 @@
+#my-sidebar{
+    width: var(--sideBar);
+    height: 100% !important; 
+    background-color: #FFFFFF;
+    border-right: 1px solid #e2dfdf;
+    position: fixed;
+    margin-top: 50px;
+}
+
+.my-sidebar-label{
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 15px   ;
+    font-weight: 700;
+    color: #ABABAB;
+}
+
+.my-sidebar-link{
+    display: inline-block;
+    width: var(--sideBar);
+    text-decoration: none;
+    padding: 6px 20px;
+    color: #1E75B7;
+}
+
+.my-sidebar-link-icon{
+    width: 25px;
+    margin-right: var(--sideBarPadding);
+    color: #1E75B7;
+}
+
+.my-sidebar-link-active {
+    background-color: #8AC240;
+    color: white;
+}
+
+.my-sidebar-logo{
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+}
+
+

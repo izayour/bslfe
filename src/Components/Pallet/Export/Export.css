@@ -1,0 +1,26 @@
+.saveButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-items: baseline;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.exportHead{
+    margin-bottom: 1%;
+}
+.datePicker{
+    float: right;
+    margin-right: 5%;
+}
+
+.vendor{
+margin-left: 10%;
+}

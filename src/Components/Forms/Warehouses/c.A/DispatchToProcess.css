@@ -1,0 +1,47 @@
+.leftSideTab {
+    width: 480px;
+}
+
+.rightSideTab {
+    width: 480px;
+    position: absolute;
+    left: 835px;
+}
+
+.addToggle {
+    background: #8AC240;
+    border-radius: 28px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0px;
+    margin-top: 6px;
+    width: 58px;
+    height: 25px;
+    align-items: center;
+    color: white;
+}
+
+.addToggle>svg {
+    width: 12.8px;
+    height: 12.8px;
+    margin-right: 10px;
+}
+
+.addToggle:disabled {
+    background: #C8C8C8;
+    border-radius: 28px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 6px 0px 5px 0px;
+    margin-top: 6px;
+}
+
+#filter-text-box {
+    height: 0px;
+}
+
+#right-filter-text-box {
+    height: 0px;
+}

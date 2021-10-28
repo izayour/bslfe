@@ -1,0 +1,170 @@
+.myContainer-secondTab{
+    border-radius: 4px;
+    background-color: white;
+    position: absolute;
+    position: absolute;
+    top: 185px;
+    left: 290px;
+    padding: 15px;
+    width: 75vw;
+}
+
+input[type="date"]::before {
+  content: attr(placeholder);
+  position: absolute;
+  color: black;
+}
+
+input[type="date"] {
+  color: transparent;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+  color: #666666;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+  content: "";
+}
+
+.secondTab-Label{
+  font-family: Roboto;
+}
+
+.secondTab-Input{
+  background-color: #F2F2F2;
+  border: 1px solid #CFDCE5;
+  border-radius: 4px;
+}
+
+.importCSV{
+  font-family: Roboto;
+  color: white;
+  position: absolute;
+  right: 4%;
+  bottom: 8%;
+  background-color: #1E75B7;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  margin-top: -6px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.palletRevomeButton{
+  background: #E56969;
+  border-radius: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 38%;
+  padding: 3px;
+  margin-right: 6%;
+}
+
+.palletEditButton{
+  background: white;
+  border: 1px solid #1E75B7;
+  color:#1E75B7;
+  border-radius: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 30%;
+  padding: 1%;
+}
+
+.palletCancelButton{
+  background: white;
+  border: 1px solid #1E75B7;
+  color:#1E75B7;
+  border-radius: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 38%;
+  padding: 3px;
+  margin-right: 6%;
+}
+
+.palletSaveButton{
+  background: #8AC240;
+  color:white;
+  border-radius: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  width: 35%;
+  padding: 2%;
+}
+
+.inputPalletEdit{
+  width: 74px;
+  border: 1px solid #CFDCE5;
+  border-radius: 4px;
+}
+
+.editTableRow > td{
+  padding-top: 0;
+  padding-bottom: 0%;
+  font-family: Roboto;
+  border: none;
+}
+
+.disabledImportButton{
+  font-family: Roboto;
+  color: white;
+  background-color: #BCBCBB;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  width: auto;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.addPalletManually{
+  font-family: Roboto;
+  color: #1E75B7;
+  border: none;
+  background-color: white;
+  width: 200px;
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 250px;
+}
+
+.newPalletPaper{
+  width: 450px;
+  border-radius: 0px;
+  border: none;
+  height: 50px;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  box-shadow: none;
+  margin-left: 240px;
+}
+
+.addUnit-label{
+  font-family: Roboto;
+  color: #1E75B7;
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 15px;
+  width: 150px
+}
+.saveButton:disabled{
+  background-color: #C4C4C4;
+}

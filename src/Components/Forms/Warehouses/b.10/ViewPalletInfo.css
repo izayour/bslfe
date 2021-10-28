@@ -1,0 +1,26 @@
+.viewPalletInfoEdit{
+    background: #8AC240;
+    border: 1px solid #8AC240;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+
+.viewPalletInfoCancel{
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(221, 219, 218);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: rgb(30, 117, 183);
+    width: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: -46px;
+    margin-left: 50px;
+}
